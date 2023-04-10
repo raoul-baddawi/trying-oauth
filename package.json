@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app",
-    "build": "echo 'Building project...'"
+    "build": "react-scripts build"
   },
   "author": "Raoul Baddawi",
   "license": "MIT",
