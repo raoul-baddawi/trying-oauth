@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=development nodemon app",
-    "build": "gatsby build"
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "Raoul Baddawi",
   "license": "MIT",
@@ -14,10 +13,8 @@
     "colors": "^1.4.0",
     "connect-mongo": "^5.0.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
     "express-handlebars": "^5.3.5",
     "express-session": "^1.17.3",
-    "gatsby": "^5.8.1",
     "method-override": "^3.0.0",
     "moment": "^2.29.4",
     "mongoose": "^7.0.3",
@@ -27,6 +24,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "express": "^4.18.2",
     "nodemon": "^2.0.22"
   }
 }
