@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=development nodemon app",
-    "build": "react-scripts build"
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "Raoul Baddawi",
   "license": "MIT",
